@@ -1,8 +1,8 @@
 var assert = require("assert");
 
-var Node = require("../node");
-var User = require("../user");
-var config = require('../config');
+var Node = require("../lib/node");
+var User = require("../lib/user");
+var config = require('./config');
 
 var options = {url: config.url};
 var node = new Node(options);

@@ -1,7 +1,7 @@
 var assert = require("assert");
 
-var User = require("../user");
-var config = require('../config');
+var User = require("../lib/user");
+var config = require('./config');
 
 var options = {url: config.url};
 var user = new User(options);
