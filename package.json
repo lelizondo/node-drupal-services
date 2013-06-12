@@ -1,5 +1,5 @@
 {
-  "name": "Drupal"
+  "name": "node-drupal-services"
 , "version": "1.0.0"
 , "author": "Luis Elizondo"
 , "description": "Connect with Drupal 7 using Services 3"
