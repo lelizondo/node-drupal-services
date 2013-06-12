@@ -1,0 +1,12 @@
+This is a Node.js module to communicate with Drupal 7 using the Services Module.
+
+* How to Use
+Take a look at the example.js file, it's pretty obvious how to make it work. If anything fails please configure your Drupal site so it works. Permissions is one of the things that most people forget to configure.
+
+* But how do I do something Drupalish with it?
+That's up to you, if you want some more examples, take a look at the tests directory. If you do something really cool with this module, like rewriting a whole user interface and leaving Drupal only as a some sort of backend please let me know.
+
+* License
+MIT License
+
+Everybody is welcome to contribute, this is not a finished version, there's still lots of resources that need to be configured.

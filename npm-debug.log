@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose publish [ '.' ]
+5 verbose read json /var/www/drupalnode/package.json
+6 warn package.json Drupal@1.0.0 No README.md file found!
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /home/luis/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+15 verbose folder .
+16 info prepublish Drupal@1.0.0
+17 silly lockFile 3a52ce78- .
+18 verbose lock . /home/luis/.npm/3a52ce78-.lock
+19 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+20 verbose lock /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz /home/luis/.npm/d80571be-09597-0-6551072085276246-tmp-tgz.lock
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 3a52ce78- .
+23 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+24 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+25 verbose tar unpack /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+26 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+27 verbose lock /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package /home/luis/.npm/8d117f69-09597-0-6551072085276246-package.lock
+28 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+29 verbose lock /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz /home/luis/.npm/d80571be-09597-0-6551072085276246-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+33 silly gunzTarPerm extractEntry .npmignore
+34 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+35 silly gunzTarPerm extractEntry example.js
+36 silly gunzTarPerm modified mode [ 'example.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry index.js
+38 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+39 silly gunzTarPerm extractEntry tests/node-index.js
+40 silly gunzTarPerm modified mode [ 'tests/node-index.js', 436, 420 ]
+41 silly gunzTarPerm extractEntry tests/node-get.js
+42 silly gunzTarPerm modified mode [ 'tests/node-get.js', 436, 420 ]
+43 silly gunzTarPerm extractEntry tests/user-login.js
+44 silly gunzTarPerm modified mode [ 'tests/user-login.js', 436, 420 ]
+45 silly gunzTarPerm extractEntry tests/node-delete.js
+46 silly gunzTarPerm modified mode [ 'tests/node-delete.js', 436, 420 ]
+47 silly gunzTarPerm extractEntry tests/node-post.js
+48 silly gunzTarPerm modified mode [ 'tests/node-post.js', 436, 420 ]
+49 silly gunzTarPerm extractEntry tests/user-logout.js
+50 silly gunzTarPerm modified mode [ 'tests/user-logout.js', 436, 420 ]
+51 silly gunzTarPerm extractEntry tests/node-put.js
+52 silly gunzTarPerm modified mode [ 'tests/node-put.js', 436, 420 ]
+53 silly gunzTarPerm extractEntry tests/config.json
+54 silly gunzTarPerm modified mode [ 'tests/config.json', 436, 420 ]
+55 silly gunzTarPerm extractEntry lib/user.js
+56 silly gunzTarPerm modified mode [ 'lib/user.js', 436, 420 ]
+57 silly gunzTarPerm extractEntry lib/node.js
+58 silly gunzTarPerm modified mode [ 'lib/node.js', 436, 420 ]
+59 verbose read json /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package/package.json
+60 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+61 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+62 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+63 silly lockFile d80571be-09597-0-6551072085276246-tmp-tgz /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/tmp.tgz
+64 verbose from cache /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package/package.json
+65 verbose tar pack [ '/home/luis/.npm/Drupal/1.0.0/package.tgz',
+65 verbose tar pack   '/home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package' ]
+66 verbose tarball /home/luis/.npm/Drupal/1.0.0/package.tgz
+67 verbose folder /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+68 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+69 verbose lock /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package /home/luis/.npm/8d117f69-09597-0-6551072085276246-package.lock
+70 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+71 verbose lock /home/luis/.npm/Drupal/1.0.0/package.tgz /home/luis/.npm/7c704d15-uis-npm-Drupal-1-0-0-package-tgz.lock
+72 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+73 silly lockFile 8d117f69-09597-0-6551072085276246-package /home/luis/tmp/npm-6860/1371048309597-0.6551072085276246/package
+74 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+75 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+76 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+77 verbose lock /home/luis/.npm/Drupal/1.0.0/package /home/luis/.npm/fd78d5f2-me-luis-npm-Drupal-1-0-0-package.lock
+78 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+79 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+80 verbose tar unpack /home/luis/.npm/Drupal/1.0.0/package.tgz
+81 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+82 verbose lock /home/luis/.npm/Drupal/1.0.0/package /home/luis/.npm/fd78d5f2-me-luis-npm-Drupal-1-0-0-package.lock
+83 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+84 verbose lock /home/luis/.npm/Drupal/1.0.0/package.tgz /home/luis/.npm/7c704d15-uis-npm-Drupal-1-0-0-package-tgz.lock
+85 silly gunzTarPerm modes [ '755', '644' ]
+86 silly gunzTarPerm extractEntry package.json
+87 silly gunzTarPerm extractEntry .npmignore
+88 silly gunzTarPerm extractEntry example.js
+89 silly gunzTarPerm extractEntry index.js
+90 silly gunzTarPerm extractEntry tests/node-index.js
+91 silly gunzTarPerm extractEntry tests/node-get.js
+92 silly gunzTarPerm extractEntry tests/user-login.js
+93 silly gunzTarPerm extractEntry tests/node-delete.js
+94 silly gunzTarPerm extractEntry tests/node-post.js
+95 silly gunzTarPerm extractEntry tests/user-logout.js
+96 silly gunzTarPerm extractEntry tests/node-put.js
+97 silly gunzTarPerm extractEntry tests/config.json
+98 silly gunzTarPerm extractEntry lib/user.js
+99 silly gunzTarPerm extractEntry lib/node.js
+100 verbose read json /home/luis/.npm/Drupal/1.0.0/package/package.json
+101 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+102 silly lockFile fd78d5f2-me-luis-npm-Drupal-1-0-0-package /home/luis/.npm/Drupal/1.0.0/package
+103 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+104 silly lockFile 7c704d15-uis-npm-Drupal-1-0-0-package-tgz /home/luis/.npm/Drupal/1.0.0/package.tgz
+105 silly shasum updated bytes 2061
+106 info shasum 5136c4fd69ef289a36cbd2c4de2f2a215465fa21
+106 info shasum /home/luis/.npm/Drupal/1.0.0/package.tgz
+107 verbose from cache /home/luis/.npm/Drupal/1.0.0/package/package.json
+108 verbose chmod /home/luis/.npm/Drupal/1.0.0/package.tgz 644
+109 verbose chown /home/luis/.npm/Drupal/1.0.0/package.tgz [ 1000, 1000 ]
+110 silly lockFile 3a52ce78- .
+111 silly publish { name: 'Drupal',
+111 silly publish   version: '1.0.0',
+111 silly publish   author: { name: 'Luis Elizondo' },
+111 silly publish   description: 'Connect with Drupal 7 using Services 3',
+111 silly publish   dependencies: { request: '2.21.0' },
+111 silly publish   engines: { node: '>=0.10.8' },
+111 silly publish   _id: 'Drupal@1.0.0',
+111 silly publish   readme: 'ERROR: No README.md file found!',
+111 silly publish   dist: { shasum: '5136c4fd69ef289a36cbd2c4de2f2a215465fa21' },
+111 silly publish   _from: '.' }
+112 error need auth auth and email required for publishing
+112 error need auth You need to authorize this machine using `npm adduser`
+113 error System Linux 3.2.0-38-generic
+114 error command "nodejs" "/usr/bin/npm" "publish"
+115 error cwd /var/www/drupalnode
+116 error node -v v0.8.22
+117 error npm -v 1.2.14
+118 error code ENEEDAUTH
+119 verbose exit [ 1, true ]
